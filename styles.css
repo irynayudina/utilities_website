@@ -1,0 +1,77 @@
+.view {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #922727;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.header {
+    color: #922727;
+    background-color: #F8B668;
+    height: 40px;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.name{
+    display: inline-block;    
+    font-size: 36px;
+}
+.description, .login, .signup{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.header>div{
+    font-size: medium;    
+}
+.main{
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    border: 3px solid #F8B668;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(pexels-photo-129731.webp);
+}
+.form-area{
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 2px solid #F8B668;
+}
+.formname{
+    text-align: center;
+    font-size: 24px;
+}
+.descr{
+    display: inline-block;
+    outline: 3px solid #ffffff;
+    border-right: 2px solid #F8B668;
+}
+ul.nav li a, ul.nav li a:visited {
+    color: #922727 !important;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#appartments{
+    background: rgba(255, 255, 255, 0);
+    background-image: url(white.PNG);
+    min-width: 10px;
+    min-height: 10px;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
